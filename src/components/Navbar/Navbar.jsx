@@ -7,9 +7,42 @@ const Navbar = () => {
                 <img src="/Resources/Logo.png" alt="logo" />
             </figure>
             <nav className="flex flex-col justify-center md:flex-row gap-4 md:gap-12 text-[#0B0B0B] text-lg font-normal">
-                <NavLink to={`home`}>Home</NavLink>
-                <NavLink to={`donation`}>Donation</NavLink>
-                <NavLink to={`statistics`}>Statistics</NavLink>
+                <NavLink
+                    to={`home`}
+                    className={({ isActive, isPending }) =>
+                        isActive
+                            ? "active text-[#FF444A] font-bold"
+                            : isPending
+                                ? "pending"
+                                : ""
+                    }
+                >
+                    Home
+                </NavLink>
+                <NavLink
+                    to={`donation`}
+                    className={({ isActive, isPending }) =>
+                        isActive
+                            ? "active text-[#FF444A] font-bold"
+                            : isPending
+                                ? "pending"
+                                : ""
+                    }
+                >
+                    Donation
+                </NavLink>
+                <NavLink
+                    to={`statistics`}
+                    className={({ isActive, isPending }) =>
+                        isActive
+                            ? "active text-[#FF444A] font-bold"
+                            : isPending
+                                ? "pending"
+                                : ""
+                    }
+                >
+                    Statistics
+                </NavLink>
             </nav>
         </div>
     );
