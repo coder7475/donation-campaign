@@ -1,7 +1,9 @@
+import Navbar from "../components/Navbar/Navbar";
+
 const MainLayout = () => {
     return (
-        <div>
-            <h1 className="text-5xl">Main Layout</h1>            
+        <div className="max-w-[1320px] mx-auto">
+            <Navbar></Navbar>         
         </div>
     );
 };
