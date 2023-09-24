@@ -7,9 +7,9 @@ const Navbar = () => {
                 <img src="/Resources/Logo.png" alt="logo" />
             </figure>
             <nav className="flex flex-col justify-center md:flex-row gap-4 md:gap-12 text-[#0B0B0B] text-lg font-normal">
-                <NavLink>Home</NavLink>
-                <NavLink>Donation</NavLink>
-                <NavLink>Statistics</NavLink>
+                <NavLink to={`home`}>Home</NavLink>
+                <NavLink to={`donation`}>Donation</NavLink>
+                <NavLink to={`statistics`}>Statistics</NavLink>
             </nav>
         </div>
     );
