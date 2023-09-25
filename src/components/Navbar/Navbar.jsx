@@ -8,7 +8,7 @@ const Navbar = () => {
             </figure>
             <nav className="flex flex-col justify-center md:flex-row gap-4 md:gap-12 text-[#0B0B0B] text-lg font-normal">
                 <NavLink
-                    to={`home`}
+                    to={`/`}
                     className={({ isActive, isPending }) =>
                         isActive
                             ? "active text-[#FF444A] font-bold"
