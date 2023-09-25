@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 const Card = ({ card }) => {
     const { title, picture, category, btn_color, card_bg_color, text_color } = card;
     return (
@@ -17,5 +19,9 @@ const Card = ({ card }) => {
         </div>
     );
 };
+
+Card.propTypes = {
+    card: PropTypes.object,
+}
 
 export default Card;
