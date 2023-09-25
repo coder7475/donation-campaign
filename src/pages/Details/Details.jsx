@@ -24,8 +24,8 @@ const Details = () => {
 
                 </div>
             </div>
-            <h1>{title}</h1>
-            <p>{description}</p>
+            <h1 className="mt-[93px] text-[#0B0B0B] font-inter text-[40px] font-bold mb-6">{title}</h1>
+            <p className="text-[#0B0B0BB3] font-inter mb-[122px] font-normal text-[16px]">{description}</p>
         </div>
     );
 };
