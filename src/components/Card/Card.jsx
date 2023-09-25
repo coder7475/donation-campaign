@@ -1,9 +1,11 @@
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 const Card = ({ card }) => {
-    const { title, picture, category, btn_color, card_bg_color, text_color } = card;
+    const { title, picture, category, btn_color, card_bg_color, text_color, id } = card;
     return (
-        <div className="w-[312px] rounded-lg font-inter" style={{backgroundColor: card_bg_color}}>
+        <Link to={`/${id}`}>
+            <div className="w-[312px] rounded-lg font-inter" style={{backgroundColor: card_bg_color}}>
             <img src={picture} alt="picture" className="w-[312px] h-[194px] rounded-t-lg"/>
             <div className="ml-4 mt-4">
             <button type="button" className="px-[10px] py-1 text-[14px] font-medium rounded" style={{
@@ -17,6 +19,8 @@ const Card = ({ card }) => {
                 {title}
             </h1>
         </div>
+        </Link>
+        
     );
 };
 
