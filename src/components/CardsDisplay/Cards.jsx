@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Card from "../Card/Card";
+import PropTypes from 'prop-types';
 
 const Cards = ({searchText}) => {
     const [cards, setCards] = useState([]);
@@ -28,5 +29,10 @@ const Cards = ({searchText}) => {
         </div>
     );
 };
+
+Cards.propTypes = {
+    // handleSearchBar: PropTypes.func,
+    searchText: PropTypes.string
+}
 
 export default Cards;
