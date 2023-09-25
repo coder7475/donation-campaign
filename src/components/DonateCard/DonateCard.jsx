@@ -9,7 +9,7 @@ const DonateCard = ({ donate }) => {
                 { backgroundColor: card_bg_color }
             }>
             <figure className="">
-                <img src={picture} alt="picture" className="w-[220px] h-[200px]" />
+                <img src={picture} alt="picture" className="w-[220px] h-[200px] rounded-l-lg" />
             </figure>
             <div className="flex-1">
                 <div className="" >
