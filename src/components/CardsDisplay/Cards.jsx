@@ -9,7 +9,7 @@ const Cards = () => {
           .then(data => setCards(data));
     },[]);
 
-    console.log(cards);
+    // console.log(cards);
 
     return (
         <div className="max-w-[1320px] mx-auto mt-24 mb-48 flex flex-col justify-center items-center">
