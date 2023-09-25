@@ -12,8 +12,8 @@ const Donation = () => {
     const handleSeeAll = () => {
         setCount(donated.length);
     }
-    console.log(allDonations);
-    console.log(donated);
+    // console.log(allDonations);
+    // console.log(donated);
     return (
         <section className="max-w-[1320px] mx-auto mt-20 mb-40 flex flex-col justify-center">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
