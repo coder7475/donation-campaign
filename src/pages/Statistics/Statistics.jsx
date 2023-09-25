@@ -39,9 +39,9 @@ const Statistics = () => {
                     outerRadius={250}
                     fill="#8884d8"
                     label={renderCustomizedLabel}
-                    // labelLine={false}
+                    labelLine={false}
                 >
-                    {data.map((entry, index) => (
+                    {data.map((index) => (
                         <Cell key={index} fill={`#${(Math.random() * 0xFFFFFF << 0).toString(16)}`} />
 
                     ))}
