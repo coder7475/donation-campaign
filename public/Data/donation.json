@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "picture": "https://images.pexels.com/photos/5998450/pexels-photo-5998450.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "title": "Medical Supplies for Children",
+        "category": "Health",
+        "btn_color": "#0052FF33",
+        "card_bg_color": "#0052FF26",
+        "text_color": "#0052FF",
+        "description": "Help provide essential medical supplies to children in need. Your donation will make a difference in their lives.",
+        "price": 50
+    },
+    {
+        "id": 2,
+        "picture": "https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "title": "Support Cancer Research",
+        "category": "Health",
+        "btn_color": "#0052FF33",
+        "card_bg_color": "#0052FF26",
+        "text_color": "#0052FF",
+        "description": "Contribute to ongoing cancer research efforts and help find a cure for this devastating disease.",
+        "price": 100
+    },
+    {
+        "id": 3,
+        "picture": "https://images.unsplash.com/photo-1622186477895-f2af6a0f5a97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "title": "Scholarships for Underprivileged Students",
+        "category": "Education",
+        "btn_color": "#FF44A33",
+        "card_bg_color": "#FF444A1A",
+        "text_color": "#FF444A",
+        "description": "Empower underprivileged students by providing them with scholarships to pursue their education dreams.",
+        "price": 75
+    },
+    {
+        "id": 4,
+        "picture": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "title": "Books for Schools in Need",
+        "category": "Education",
+        "btn_color": "#FF44A33",
+        "card_bg_color": "#FF444A1A",
+        "text_color": "#FF444A",
+        "description": "Donate books to schools lacking resources and help improve access to quality education for children.",
+        "price": 30
+    },
+    {
+        "id": 5,
+        "picture": "https://images.pexels.com/photos/5704187/pexels-photo-5704187.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "title": "Warm Winter Clothes Drive",
+        "category": "Clothing",
+        "btn_color": "#79C23F33",
+        "card_bg_color": "#79C23F26",
+        "text_color": "#79C23F",
+        "description": "Collect warm clothing items for those in need during the cold winter months. Your contribution can keep someone warm.",
+        "price": 20
+    },
+    {
+        "id": 6,
+        "picture": "https://images.pexels.com/photos/3755706/pexels-photo-3755706.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "title": "Dress for Success Program",
+        "category": "Clothing",
+        "btn_color": "#79C23F33",
+        "card_bg_color": "#79C23F26",
+        "text_color": "#79C23F",
+        "description": "Support the Dress for Success program, providing professional attire to individuals seeking employment opportunities.",
+        "price": 40
+    },
+    {
+        "id": 7,
+        "picture": "https://images.pexels.com/photos/9533093/pexels-photo-9533093.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "title": "Food for Homeless Shelters",
+        "category": "Food",
+        "btn_color": "#F8714733",
+        "card_bg_color": "#F8714726",
+        "text_color": "#F87147",
+        "description": "Donate non-perishable food items to homeless shelters and help feed those who are less fortunate.",
+        "price": 15
+    },
+    {
+        "id": 8,
+        "picture": "https://images.pexels.com/photos/8844379/pexels-photo-8844379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "title": "Nutrition Program for Children",
+        "category": "Food",
+        "btn_color": "#F8714733",
+        "card_bg_color": "#F8714726",
+        "text_color": "#F87147",
+        "description": "Support a nutrition program that ensures children have access to healthy meals and a brighter future.",
+        "price": 50
+    },
+    {
+        "id": 9,
+        "picture": "https://images.unsplash.com/photo-1516549655169-df83a0774514?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "title": "Medical Outreach in Rural Areas",
+        "category": "Health",
+        "btn_color": "#0052FF33",
+        "card_bg_color": "#0052FF26",
+        "text_color": "#0052FF",
+        "description": "Bring healthcare to underserved rural communities by supporting medical outreach initiatives.",
+        "price": 60
+    },
+    {
+        "id": 10,
+        "picture": "https://images.pexels.com/photos/5530437/pexels-photo-5530437.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "title": "Computer Lab for Schools",
+        "category": "Education",
+        "btn_color": "#FF44A33",
+        "card_bg_color": "#FF444A1A",
+        "text_color": "#FF444A",
+        "description": "Equip schools with computer labs to enhance the learning experience of students in remote areas.",
+        "price": 80
+    },
+    {
+        "id": 11,
+        "picture": "https://images.pexels.com/photos/1884583/pexels-photo-1884583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "title": "Clothing Vouchers for Families",
+        "category": "Clothing",
+        "btn_color": "#79C23F33",
+        "card_bg_color": "#79C23F26",
+        "text_color": "#79C23F",
+        "description": "Provide clothing vouchers to families in need so they can choose their own clothing essentials.",
+        "price": 25
+    },
+    {
+        "id": 12,
+        "picture": "https://images.pexels.com/photos/3631731/pexels-photo-3631731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "title": "Meals on Wheels for Seniors",
+        "category": "Food",
+        "btn_color": "#F8714733",
+        "card_bg_color": "#F8714726",
+        "text_color": "#F87147",
+        "description": "Support the Meals on Wheels program, delivering nutritious meals to seniors who are homebound.",
+        "price": 35
+    }
+]
