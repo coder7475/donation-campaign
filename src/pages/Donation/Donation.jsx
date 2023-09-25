@@ -15,16 +15,16 @@ const Donation = () => {
     console.log(allDonations);
     console.log(donated);
     return (
-        <section className="">
+        <section className="max-w-[1320px] mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 h">
                 {
                     donated.slice(0, count).map(donate => <DonateCard donate={donate} key={donate.id}></DonateCard>)
                 }
             </div>
-            <div className="text-center" onClick={handleSeeAll} style={{
+            <div className="text-center font-inter text-[16px] font-semibold" onClick={handleSeeAll} style={{
                     display: count > 4 ? "none" : ""
                 }}>
-                <button type="button" className="border bg-black text-white p-2 rounded"
+                <button type="button" className="border bg-[#009444]  text-[#FFF] w-[110px] h-[48px] rounded-lg"
                 
                 >
                 See All
