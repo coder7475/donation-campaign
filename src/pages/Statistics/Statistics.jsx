@@ -1,4 +1,4 @@
-import { PieChart, Pie, Cell, Tooltip, Legend } from 'recharts';
+import { PieChart, Pie, Cell, Legend } from 'recharts';
 
 
 const Statistics = () => {
@@ -30,8 +30,7 @@ const Statistics = () => {
             <PieChart width={600} height={600}>
                 <Pie
                     data={data}
-                    startAngle={360}
-                    endAngle={0}
+        
                     paddingAngle={2}
                     dataKey="value"
                     nameKey="name"
@@ -40,7 +39,7 @@ const Statistics = () => {
                     outerRadius={250}
                     fill="#8884d8"
                     label={renderCustomizedLabel}
-                    labelLine={false}
+                    // labelLine={false}
                 >
                     {data.map((entry, index) => (
                         <Cell key={index} fill={`#${(Math.random() * 0xFFFFFF << 0).toString(16)}`} />
@@ -48,7 +47,6 @@ const Statistics = () => {
                     ))}
                     
                 </Pie>
-                <Tooltip />
                 <Legend />
             </PieChart>
         </div >
