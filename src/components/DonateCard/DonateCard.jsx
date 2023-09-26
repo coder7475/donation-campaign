@@ -7,7 +7,7 @@ const DonateCard = ({ donate }) => {
 
     return (
         <div
-            className="h-[200px] lg:w-[648px] rounded-lg flex justify-between items-center border gap-6 font-inter"
+            className="h-[200px] lg:w-[530px] xl:w-[648px] rounded-lg flex justify-between items-center border gap-1 md:gap-3 lg:gap-6 font-inter"
             style={
                 { backgroundColor: card_bg_color }
             }>
@@ -38,7 +38,7 @@ const DonateCard = ({ donate }) => {
                 <Link to={`/${id}`}>
                     <button
                         type="button"
-                        className="text-white text-xs md:text-[18px] px-2 md:px-4 py-1 md:py-2 font-medium md:font-semibold font-inter rounded md:mt-6"
+                        className="text-white text-xs md:text-[18px] px-2 md:px-4 py-1 md:py-2 font-medium md:font-semibold font-inter rounded xl:mt-6"
                         style={
                             { backgroundColor: text_color }
                         }>
