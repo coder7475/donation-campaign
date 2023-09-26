@@ -1,6 +1,4 @@
 import { PieChart, Pie, Cell, Legend } from 'recharts';
-
-
 const Statistics = () => {
     const donations = localStorage.getItem('donations');
     const parsed = JSON.parse(donations);

@@ -2,11 +2,11 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
     return (
-        <div className="flex justify-center lg:justify-between items-center font-inter flex-col lg:flex-row gap-5 max-w-[1320px] mx-auto ">
+        <div className="flex justify-center lg:justify-between items-center font-inter flex-col lg:flex-row gap-5 max-w-[1320px] mx-auto px-1">
             <figure className="text-center">
                 <img src="/Resources/Logo.png" alt="logo" />
             </figure>
-            <nav className="flex flex-col justify-center md:flex-row gap-4 md:gap-12 text-[#0B0B0B] text-lg font-normal">
+            <nav className="flex flex-col items-center justify-center md:flex-row gap-4 md:gap-12 text-[#0B0B0B] text-lg font-normal">
                 <NavLink
                     to={`/`}
                     className={({ isActive, isPending }) =>
