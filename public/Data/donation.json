@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "picture": "https://images.pexels.com/photos/5998450/pexels-photo-5998450.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "picture": "/images/1.webp",
         "title": "Medical Supplies for Children",
         "category": "Health",
         "btn_color": "#0052FF33",
@@ -12,7 +12,7 @@
     },
     {
         "id": 2,
-        "picture": "https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "picture": "/images/2.webp",
         "title": "Support Cancer Research",
         "category": "Health",
         "btn_color": "#0052FF33",
@@ -23,7 +23,7 @@
     },
     {
         "id": 3,
-        "picture": "https://images.unsplash.com/photo-1622186477895-f2af6a0f5a97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "picture": "/images/3.avif",
         "title": "Scholarships for Underprivileged",
         "category": "Education",
         "btn_color": "#FF444A33",
@@ -34,7 +34,7 @@
     },
     {
         "id": 4,
-        "picture": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "picture": "/images/4.avif",
         "title": "Books for Schools in Need",
         "category": "Education",
         "btn_color": "#FF444A33",
@@ -45,7 +45,7 @@
     },
     {
         "id": 5,
-        "picture": "https://images.pexels.com/photos/5704187/pexels-photo-5704187.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "picture": "/images/5.jpeg",
         "title": "Warm Winter Clothes Drive",
         "category": "Clothing",
         "btn_color": "#79C23F33",
@@ -56,7 +56,7 @@
     },
     {
         "id": 6,
-        "picture": "https://images.pexels.com/photos/3755706/pexels-photo-3755706.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "picture": "/images/6.jpeg",
         "title": "Dress for Success Program",
         "category": "Clothing",
         "btn_color": "#79C23F33",
@@ -67,7 +67,7 @@
     },
     {
         "id": 7,
-        "picture": "https://images.pexels.com/photos/9533093/pexels-photo-9533093.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "picture": "/images/7.jpeg",
         "title": "Food for Homeless Shelters",
         "category": "Food",
         "btn_color": "#F8714733",
@@ -78,7 +78,7 @@
     },
     {
         "id": 8,
-        "picture": "https://images.pexels.com/photos/8844379/pexels-photo-8844379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "picture": "/images/8.webp",
         "title": "Nutrition Program for Children",
         "category": "Food",
         "btn_color": "#F8714733",
@@ -89,7 +89,7 @@
     },
     {
         "id": 9,
-        "picture": "https://images.unsplash.com/photo-1516549655169-df83a0774514?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "picture": "/images/9.avif",
         "title": "Medical Outreach in Rural Areas",
         "category": "Health",
         "btn_color": "#0052FF33",
@@ -100,7 +100,7 @@
     },
     {
         "id": 10,
-        "picture": "https://images.pexels.com/photos/5530437/pexels-photo-5530437.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "picture": "/images/10.jpeg",
         "title": "Computer Lab for Schools",
         "category": "Education",
         "btn_color": "#FF444A33",
@@ -111,7 +111,7 @@
     },
     {
         "id": 11,
-        "picture": "https://images.pexels.com/photos/1884583/pexels-photo-1884583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "picture": "/images/11.webp",
         "title": "Clothing Vouchers for Families",
         "category": "Clothing",
         "btn_color": "#79C23F33",
@@ -122,7 +122,7 @@
     },
     {
         "id": 12,
-        "picture": "https://images.pexels.com/photos/3631731/pexels-photo-3631731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "picture": "/images/12.jpeg",
         "title": "Meals on Wheels for Seniors",
         "category": "Food",
         "btn_color": "#F8714733",
