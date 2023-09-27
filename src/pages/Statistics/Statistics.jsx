@@ -11,8 +11,7 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
         <text 
           x={x} 
           y={y} 
-          fill="white"
-          
+          fill="white"          
           textAnchor={x > cx ? 'start' : 'end'} 
           dominantBaseline="central" 
           className='font-bold font-inter'
@@ -61,7 +60,8 @@ const Statistics = () => {
                     ))}
 
                 </Pie>
-                <Legend />
+                 <Legend/>
+                
             </PieChart>
         </ResponsiveContainer>
         </div>
